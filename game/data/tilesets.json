@@ -1,0 +1,23 @@
+{
+  "outside_1": {
+	"file": "img/tilesets/outside_1.png"
+  },
+  "outside_2": {
+	"file": "img/tilesets/outside_2.png"
+  },
+  "outside_3": {
+	"file": "img/tilesets/outside_3.png"
+  },
+  "outside_4": {
+	"file": "img/tilesets/outside_4.png"
+  },
+  "outside_5": {
+	"file": "img/tilesets/outside_5.png"
+  },
+  "outside_6": {
+	"file": "img/tilesets/outside_6.png"
+  },
+  "outside_7": {
+	"file": "img/tilesets/outside_7.png"
+  }
+}

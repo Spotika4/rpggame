@@ -1,0 +1,17 @@
+{
+  "map": {
+	"key": "map",
+	"json": "data/maps/map.json"
+  },
+  "params": {
+	"min": {
+	  "speed": 1,
+	  "str": 1,
+	  "agi": 1,
+	  "int": 1,
+	  "dex": 1,
+	  "vit": 1,
+	  "hp": 1
+	}
+  }
+}

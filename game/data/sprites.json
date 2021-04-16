@@ -1,0 +1,12 @@
+{
+  "player": {
+	"frameWidth": 48,
+	"frameHeight": 48,
+	"file": "img/sprites/player.png"
+  },
+  "dog": {
+	"frameWidth": 48,
+	"frameHeight": 48,
+	"file": "img/sprites/dog.png"
+  }
+}

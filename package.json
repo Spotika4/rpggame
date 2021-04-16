@@ -1,0 +1,48 @@
+{
+	"name": "rpggame",
+	"version": "1.0.0",
+	"description": "A game project on phaser",
+	"scripts": {
+		"watch": "parcel watch src/index.html --out-dir game",
+		"serve": "parcel serve src/index.html --out-dir game",
+		"build": "parcel build src/index.html --out-dir game",
+		"maps-build": "node mapbuild.js"
+	},
+	"author": "spotika4",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Spotika4/rpggame"
+	},
+	"homepage": "https://github.com/Spotika4/rpggame",
+	"devDependencies": {
+		"@babel/core": "^7.10.5",
+		"@babel/plugin-proposal-class-properties": "^7.10.4",
+		"babel-eslint": "^10.1.0",
+		"cssnano": "^4.1.10",
+		"eslint": "^7.18.0",
+		"minimist": ">=1.2.2",
+		"parcel-plugin-clean-easy": "^1.0.2",
+		"parcel-plugin-static-files-copy": "^2.4.3"
+	},
+	"dependencies": {
+		"behaviors": "^0.2.0",
+		"core-js": "^3.8.2",
+		"phaser": "^3.24.1",
+		"regenerator-runtime": "^0.13.7",
+		"src": "^1.1.2",
+		"tilemap": "^0.1.0"
+	},
+	"parcelCleanPaths": [
+		".cache",
+		"game/*.js",
+		"game/*.map",
+		"game/*.html",
+		"game/js/*.js",
+		"game/js/*.map",
+		"game/js/*.html"
+	],
+	"staticFiles": {
+		"watcherGlob": "src/**"
+	}
+}
