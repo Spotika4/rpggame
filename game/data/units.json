@@ -1,0 +1,105 @@
+{
+
+  "player": {
+	"key": "player",
+	"sprite": "player",
+	"frame": 1,
+	"fraction":  "neutral",
+	"params": {
+	  "base": {
+		"speed": 60,
+		"str": 1,
+		"agi": 1,
+		"int": 1,
+		"dex": 1,
+		"vit": 1
+	  }
+	},
+	"radar": {
+	  "radius": 100
+	},
+	"patrol": {
+	  "width": 5,
+	  "height": 5,
+	  "delay": 3000
+	},
+	"anims": {
+	  "movesouth": {
+		"sprite": "player",
+		"frames": [0, 1, 2, 1],
+		"repeat": -1,
+		"frameRate": 6
+	  },
+	  "movewest": {
+		"sprite": "player",
+		"frames": [3, 4, 5, 4],
+		"repeat": -1,
+		"frameRate": 6
+	  },
+	  "moveeast": {
+		"sprite": "player",
+		"frames": [6, 7, 8, 7],
+		"repeat": -1,
+		"frameRate": 6
+	  },
+	  "movenorth": {
+		"sprite": "player",
+		"frames": [9, 10, 11, 10],
+		"repeat": -1,
+		"frameRate": 6
+	  }
+	}
+  },
+
+  "dog": {
+	"key": "dog",
+	"sprite": "dog",
+	"frame": 1,
+	"fraction":  "neutral",
+	"params": {
+	  "base": {
+		"speed": 52,
+		"str": 1,
+		"agi": 1,
+		"int": 1,
+		"dex": 1,
+		"vit": 1
+	  }
+	},
+	"radar": {
+	  "radius": 100
+	},
+	"patrol": {
+	  "width": 5,
+	  "height": 5,
+	  "delay": 3000
+	},
+	"anims": {
+	  "movesouth": {
+		"sprite": "dog",
+		"frames": [0, 1, 2, 1],
+		"repeat": -1,
+		"frameRate": 6
+	  },
+	  "movewest": {
+		"sprite": "dog",
+		"frames": [3, 4, 5, 4],
+		"repeat": -1,
+		"frameRate": 6
+	  },
+	  "moveeast": {
+		"sprite": "dog",
+		"frames": [6, 7, 8, 7],
+		"repeat": -1,
+		"frameRate": 6
+	  },
+	  "movenorth": {
+		"sprite": "dog",
+		"frames": [9, 10, 11, 10],
+		"repeat": -1,
+		"frameRate": 6
+	  }
+	}
+  }
+
+}
